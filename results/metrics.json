@@ -1,0 +1,44 @@
+{
+  "baseline_rules": [
+    {
+      "identity_type": "human",
+      "precision": 0.945,
+      "recall": 0.92,
+      "f1": 0.932,
+      "false_negative_rate": 0.08,
+      "n": 300
+    },
+    {
+      "identity_type": "agent",
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.667,
+      "false_negative_rate": 0.0,
+      "n": 300
+    }
+  ],
+  "lightweight_classifier": [
+    {
+      "identity_type": "human",
+      "precision": 0.965,
+      "recall": 0.553,
+      "f1": 0.703,
+      "false_negative_rate": 0.447,
+      "n": 300
+    },
+    {
+      "identity_type": "agent",
+      "precision": 0.755,
+      "recall": 0.987,
+      "f1": 0.855,
+      "false_negative_rate": 0.013,
+      "n": 300
+    }
+  ],
+  "thresholds_used": {
+    "actions_per_session": 18.5743111475717,
+    "batch_size_mean": 1.62018873914462,
+    "idle_ratio": 0.30279457787256026
+  },
+  "note": "Synthetic data \u2014 see README limitations before citing these numbers."
+}
